@@ -1,9 +1,64 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>The_Test_Web</title>
-	</head>
-	<body>
-		<p>hello</p>
-	</body>
+<html lang="zh-Hant-TW">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="pic/icon.png" />
+        <title>The_Test_Web</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+            }	
+            body{
+                background-color: white
+            }
+            div.logo{
+                position: fixed;
+                left: 10px;
+                top: 10px;
+            }
+            div.title{
+                font-family: 'Charmonman', cursive;
+                position: absolute;
+                top : 10px;
+                left: 50%;
+            }
+            div.code_website{
+                font-family: 'Playfair Display', serif;
+                font-size: 20px;
+                position: absolute;
+                text-align: center;
+                top: 100px;
+                left: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="pic/icon.png" alt = "website logo" >
+        </div>
+        <div class="title">
+            <h1>My own website</h1>
+        </div>
+        <div class="code_website">
+            <table>
+                <tr>
+                    <th colspan="2">My open source code</th>
+                </tr>
+                <tr>
+                    <td><a href="https://gitlab.com/vincentinttsh" target="_blank">gitlab</a></td>
+                    <td>Main website</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/vincentinttsh" target="_blank">github</a></td>
+                    <td>Old codes were put here</td>
+                </tr>
+            </table>
+        </div>
+    </body>
 </html>
